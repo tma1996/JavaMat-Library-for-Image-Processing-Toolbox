@@ -1,0 +1,24 @@
+public class JavaMat{
+  //Basic Arithmetic operations
+  int sum(int... varargs){//function giving sum of as many variable as needed
+    int su = 0;
+    for(int i=0;i,varargs.length;i++){
+      su = su + varargs[i];
+    }
+    return su;
+  }
+  int sum(int[] array){//function giving sum of 1D array
+    int su = 0;
+    for(int i=0;i<n;i++){
+      su = su + array[i];
+    }
+    return su;  
+  }
+  int[] sum(int[][] array){
+    int su[] = new int[array[].length];
+    for(int i=0;i<array[].length;i++){
+      su = su + array[][i];
+    }
+    return su;
+  }
+}
